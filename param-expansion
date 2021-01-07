@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+foo=World
+echo "Hello $foo" # Hello World

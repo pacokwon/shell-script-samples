@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+# IFS="#"
+
+echo '"$*" loop'
+for arg in "$*"
+do
+    echo \< $arg \>;
+done
+
+echo $'\n"$@" loop'
+for arg in "$@"
+do
+    echo \< $arg \>;
+done
+
+echo $'\n$* loop'
+for arg in $*
+do
+    echo \< $arg \>;
+done
+
+echo $'\n$@ loop'
+for arg in $@;
+do
+    echo \< $arg \>;
+done

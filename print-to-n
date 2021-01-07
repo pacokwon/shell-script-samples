@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+printToN()
+{
+    if [ $1 -eq 0 ]; then
+        return
+    fi
+    printToN $(($1 - 1))
+    echo $1;
+}
+
+printToN $1

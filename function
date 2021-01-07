@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+function foo()
+{
+    echo "$2 $1"
+}
+
+bar()
+{
+    echo "$2 $1"
+}
+
+foo hello world
+bar wheel seminar

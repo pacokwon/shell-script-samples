@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+echo -n "Enter a country name: "
+read country
+
+echo -n "$country's capital is "
+case $country in
+    [kK]orea)
+        echo Seoul
+        ;;
+    [jJ]apan)
+        echo Tokyo
+        ;;
+    [cC]hina)
+        echo Beijing
+        ;;
+    *)
+        echo "...sorry I don't know"
+        ;;
+esac

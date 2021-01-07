@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+a=3
+b=5
+if [ $a -lt $b ]
+then
+    echo $a is lesser than $b
+else
+    echo $a is greater than or equal to $b
+fi

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+a=$((3 + 5))
+echo $a
